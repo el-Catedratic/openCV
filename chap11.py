@@ -21,5 +21,4 @@ blank = np.zeros(resize.shape[:2],np.uint8)
 blue = cv2.merge([b,blank,blank])
 cv2.imshow("Bluish",blue)
 
-
 cv2.waitKey(0)
